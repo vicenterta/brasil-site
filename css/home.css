@@ -1,0 +1,75 @@
+@import "./reset.css";
+@import "./header.css";
+
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.secao {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.img-fundo {
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+.texto {
+    position: absolute;
+    padding: 25px;
+    max-width: 450px;
+    font-size: 18px;
+    border-radius: 20px;
+    color: white;
+    line-height: 1.5;
+    
+}
+
+
+
+.verde {
+    background: rgba(70, 110, 20, 0.85);
+}
+
+.azul {
+    background: rgba(0, 60, 120, 0.85);
+}
+
+.laranja {
+    background: rgba(255, 120, 40, 0.85);
+}
+
+
+.bloco1 .texto {
+    bottom: 50px;
+    left: 60px;
+}
+
+.bloco2 .texto {
+    top: 200px;
+    right: 60px;
+}
+
+.bloco3 .texto {
+    top: 250px;
+    left: 60px;
+}
+
+.bloco4 .texto {
+    top: 250px;
+    right: 60px;
+}
+
+
+    
+
